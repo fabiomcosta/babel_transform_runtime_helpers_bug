@@ -1,0 +1,13 @@
+{
+  "name": "v7.0.0",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "babel ./module.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "7.0.0",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
+}

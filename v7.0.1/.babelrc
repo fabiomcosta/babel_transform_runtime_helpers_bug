@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": ["> 2%", "IE >= 11", "Safari >= 9.1"]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-runtime", {
+      "helpers": true,
+      "regenerator": false
+    }]
+  ]
+}
