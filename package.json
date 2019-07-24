@@ -1,0 +1,13 @@
+{
+  "name": "runtime_transform_bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "cd ./v6; npm i; cd -; cd ./v7; npm i; cd -",
+    "test": "cd ./v6; npm run test; cd -; cd ./v7; npm run test; cd -"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
